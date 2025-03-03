@@ -76,7 +76,7 @@ export default function AboutMe() {
                                         transition={{ duration: 0.5, delay: 0.6 }}
                                         className="text-white/80 mb-4"
                                     >
-                                        I'm a passionate AI developer with expertise in Machine Learning, Deep Learning, NLP and building AI Agents, specializing in Multi-Agent Architectures. Also a Web3 enthusiast, I have a keen interest in the advent of AI Agents in the Web3 space and the awesome DApps that can be built in this intersection. Always eager to learn new things and build cool stuff!
+                                        I&apos;m a passionate AI developer with expertise in Machine Learning, Deep Learning, NLP and building AI Agents, specializing in Multi-Agent Architectures. Also a Web3 enthusiast, I have a keen interest in the advent of AI Agents in the Web3 space and the awesome DApps that can be built in this intersection. Always eager to learn new things and build cool stuff!
                                     </motion.p>
 
                                     <motion.p
@@ -85,7 +85,7 @@ export default function AboutMe() {
                                         transition={{ duration: 0.5, delay: 0.7 }}
                                         className="text-white/80"
                                     >
-                                        When I'm not coding the next big thing, I'm either gaming on my PS5, listening to music or exploring new places around the city with my friends!
+                                        When I&apos;m not coding the next big thing, I&apos;m either gaming on my PS5, listening to music or exploring new places around the city with my friends!
                                     </motion.p>
                                 </div>
                             </div>

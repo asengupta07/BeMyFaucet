@@ -27,7 +27,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl md:text-2xl text-white/80 mb-10"
           >
-            The fun, interactive and hassle-free way to send me testnet tokens. Whether you're doing a hackathon with me or just wanna send me some testnet tokens coz you're bored, this is the place for you!
+            The fun, interactive and hassle-free way to send me testnet tokens. Whether you&apos;re doing a hackathon with me or just wanna send me some testnet tokens coz you&apos;re bored, this is the place for you!
           </motion.p>
 
           <motion.div

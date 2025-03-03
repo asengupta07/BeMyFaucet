@@ -227,7 +227,7 @@ export default function CryptoFaucet() {
           <div className="mt-8 pt-6 border-t border-gray-800">
             <div className="text-xs text-gray-500 text-center">
               <p>These are testnet tokens with no real value.</p>
-              <p className="mt-1">So chill dude, I'm not looting you!</p>
+              <p className="mt-1">So chill dude, I&apos;m not looting you!</p>
             </div>
           </div>
         </div>

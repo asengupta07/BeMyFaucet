@@ -76,7 +76,7 @@ export default function LeaderboardPreview() {
       polygon: polygonError,
       avalanche: avalancheError
     })
-    
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const processChainData = (data: any, chainName: string) => {
       if (!Array.isArray(data)) {
         console.log(`No data for ${chainName}:`, data)

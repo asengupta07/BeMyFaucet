@@ -37,7 +37,7 @@ export default function Features() {
         >
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">How It Works</h2>
           <p className="text-white/70 max-w-2xl mx-auto">
-            It's simple, really. You send me some testnet tokens, and I'll add your address to the leaderboard. Not rocket science, I promise!
+            It&apos;s simple, really. You send me some testnet tokens, and I&apos;ll add your address to the leaderboard. Not rocket science, I promise!
           </p>
         </motion.div>
 

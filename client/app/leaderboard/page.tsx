@@ -71,7 +71,7 @@ export default function LeaderboardPage() {
     },
   ]
 
-  const { data: ethereumFunders, error: ethereumError } = useReadContract({
+  const { data: ethereumFunders } = useReadContract({
     address: contracts.ethereumSepolia as `0x${string}`,
     abi: abi,
     functionName: "get_funders",
@@ -79,7 +79,7 @@ export default function LeaderboardPage() {
     chainId: 11155111,
   })
 
-  const { data: baseFunders, error: baseError } = useReadContract({
+  const { data: baseFunders } = useReadContract({
     address: contracts.baseSepolia as `0x${string}`,
     abi: abi,
     functionName: "get_funders",
@@ -87,7 +87,7 @@ export default function LeaderboardPage() {
     chainId: 84532,
   })
 
-  const { data: arbitrumFunders, error: arbitrumError } = useReadContract({
+  const { data: arbitrumFunders } = useReadContract({
     address: contracts.arbitrumSepolia as `0x${string}`,
     abi: abi,
     functionName: "get_funders",
@@ -95,7 +95,7 @@ export default function LeaderboardPage() {
     chainId: 421614,
   })
 
-  const { data: optimismFunders, error: optimismError } = useReadContract({
+  const { data: optimismFunders } = useReadContract({
     address: contracts.optimismSepolia as `0x${string}`,
     abi: abi,
     functionName: "get_funders",
@@ -103,7 +103,7 @@ export default function LeaderboardPage() {
     chainId: 11155420,
 })
 
-  const { data: polygonFunders, error: polygonError } = useReadContract({
+  const { data: polygonFunders } = useReadContract({
     address: contracts.polygonAmoy as `0x${string}`,
     abi: abi,
     functionName: "get_funders",
@@ -111,7 +111,7 @@ export default function LeaderboardPage() {
     chainId: 80002,
   })
 
-  const { data: avalancheFunders, error: avalancheError } = useReadContract({
+  const { data: avalancheFunders } = useReadContract({
     address: contracts.avalancheFuji as `0x${string}`,
     abi: abi,
     functionName: "get_funders",
@@ -122,7 +122,7 @@ export default function LeaderboardPage() {
   const fetchTopFunders = () => {
     setIsLoading(true)
     console.log("Fetching top funders...")
-
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const processChainData = (data: any, chainName: string) => {
       if (!Array.isArray(data)) {
         console.log(`No data for ${chainName}:`, data)
