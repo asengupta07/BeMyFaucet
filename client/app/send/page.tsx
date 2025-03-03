@@ -150,7 +150,7 @@ export default function CryptoFaucet() {
               <div className="relative">
                 <Input
                   type="number"
-                  placeholder="0.05 (Or be a baller and send more. No pressure. 👀)"
+                  placeholder="0.05 (Or be a baller and send more. No pressure...)"
                   value={amount}
                   onChange={(e) => setAmount(e.target.value)}
                   className="w-full bg-gray-900/60 border-gray-700 text-gray-200 h-12 pl-4 pr-12 rounded-xl [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
