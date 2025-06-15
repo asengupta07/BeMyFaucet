@@ -161,15 +161,15 @@ export default function AboutMe() {
                             <ul className="space-y-2 text-white/80">
                                 <li className="flex items-center">
                                     <span className="w-2 h-2 bg-gradient-to-r from-yellow-300 to-pink-300 rounded-full mr-2"></span>
-                                    Won 3 major web3 hackathons in the last year, and a total of 5 hackathons in the last 2 years
+                                    Won 5 major web3 hackathons in the last year, and a total of 10 hackathons in the last 2 years
                                 </li>
                                 <li className="flex items-center">
                                     <span className="w-2 h-2 bg-gradient-to-r from-yellow-300 to-pink-300 rounded-full mr-2"></span>
-                                    Collected over 15k USD in prizes from hackathons
+                                    Collected over 25k USD in prizes from hackathons
                                 </li>
                                 <li className="flex items-center">
                                     <span className="w-2 h-2 bg-gradient-to-r from-yellow-300 to-pink-300 rounded-full mr-2"></span>
-                                    Built a total of 10+ Projects in the last 2 years
+                                    Built a total of 20+ Projects in the last 2 years
                                 </li>
                             </ul>
                         </motion.div>
